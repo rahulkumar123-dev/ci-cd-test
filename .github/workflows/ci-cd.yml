@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-test-deploy:
-    runs-on: [self-hosted, linux, docker]
+    runs-on: [self-hosted]
 
     steps:
       # Step 1: Checkout repo code
