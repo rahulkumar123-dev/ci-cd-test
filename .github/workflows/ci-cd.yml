@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       # Step-2 : install python
-        name: install python
+      - name: install python
         run: yum install python3 -y
 
       # Step 3: Install dependencies
